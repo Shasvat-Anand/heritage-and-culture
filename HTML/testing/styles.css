@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #ff6f61;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.festival-card, .art-item, .music-item {
+    margin-bottom: 20px;
+}
+
+.festival-card h3, .art-item h3, .music-item h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.festival-card p, .art-item p, .music-item p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #e65c54;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

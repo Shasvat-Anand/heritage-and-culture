@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Heritage & Tradition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Explore Indian Heritage & Tradition</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#festivals">Festivals</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#art">Art & Culture</a></li>
+                <li><a href="#music">Music & Dance</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to the World of Indian Heritage</h2>
+        <p>Discover the rich cultural heritage and traditions of India. From vibrant festivals to diverse languages, traditional arts, and classical music & dance, explore the essence of India through this interactive platform.</p>
+    </section>
+
+    <!-- Festivals Section -->
+    <section id="festivals">
+        <h2>Festivals</h2>
+        <div class="festival-card">
+            <h3>Diwali</h3>
+            <p>The Festival of Lights, celebrated with great enthusiasm and joy.</p>
+        </div>
+        <div class="festival-card">
+            <h3>Holi</h3>
+            <p>The Festival of Colors, marking the arrival of spring and victory of good over evil.</p>
+        </div>
+        <!-- Add more festivals as needed -->
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages">
+        <h2>Languages</h2>
+        <p>Select a language to hear a greeting:</p>
+        <button onclick="playGreeting('hindi')">Hindi</button>
+        <button onclick="playGreeting('tamil')">Tamil</button>
+        <button onclick="playGreeting('bengali')">Bengali</button>
+        <audio id="audio"></audio>
+    </section>
+
+    <!-- Art & Culture Section -->
+    <section id="art">
+        <h2>Art & Culture</h2>
+        <div class="art-item">
+            <h3>Madhubani Painting</h3>
+            <img src="madhubani.jpg" alt="Madhubani Painting">
+            <p>A traditional art form from Bihar, known for its intricate patterns and vibrant colors.</p>
+        </div>
+        <div class="art-item">
+            <h3>Rajasthani Pottery</h3>
+            <img src="rajasthani-pottery.jpg" alt="Rajasthani Pottery">
+            <p>Beautiful pottery that reflects the rich cultural heritage of Rajasthan.</p>
+        </div>
+        <!-- Add more art & culture items as needed -->
+    </section>
+
+    <!-- Music & Dance Section -->
+    <section id="music">
+        <h2>Music & Dance</h2>
+        <div class="music-item">
+            <h3>Bharatanatyam</h3>
+            <img src="bharatanatyam.jpg" alt="Bharatanatyam Dance">
+            <p>A classical dance form originating from Tamil Nadu, known for its grace and expressive movements.</p>
+        </div>
+        <div class="music-item">
+            <h3>Sitar</h3>
+            <img src="sitar.jpg" alt="Sitar Instrument">
+            <p>A classical string instrument that is central to Indian classical music.</p>
+        </div>
+        <!-- Add more music & dance items as needed -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Indian Heritage & Tradition</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
